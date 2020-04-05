@@ -3,6 +3,7 @@ import csv
 import boto3
 import urllib.request
 
+# Time to finish 43.2 sec
 
 def lambda_handler(event, context):
     bucket_name = "wexort-output"
